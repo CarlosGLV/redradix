@@ -1,0 +1,78 @@
+<section>
+    <div class="container">
+
+        <!-- -->
+        <div class="profile">
+            <div class="thumb online">
+                <i class="icon-connect"></i>
+                <img src="/assets/img/pic.jpg" width="120" height="120" alt="User Name">
+            </div>
+            <div class="user">
+                <div class="info">
+                    <h2>User Name</h2>
+                    <p>User description lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="data">
+                <ul>
+                    <li class="increase">
+                        <i class="icon-data"></i>
+                        <p><strong>72%</strong> Fake data 1</p>
+                    </li>
+                    <li class="increase">
+                        <i class="icon-data"></i>
+                        <p><strong>91%</strong> Fake data 2</p>
+                    </li>
+                    <li class="decrease">
+                        <i class="icon-data"></i>
+                        <p><strong>37%</strong> Fake data 3</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- -->
+        <div class="featured">
+            <div class="options">
+                <ul>
+                    <li>
+                        <a href="" title="Calendar"><i class="icon-calendar"></i>Calendar</a>
+                    </li>
+                    <li>
+                        <a href="" title="Stats"><i class="icon-stats"></i>Stats</a>
+                    </li>
+                    <li>
+                        <a href="" title="Diffusion"><i class="icon-diffusion"></i>Diffusion</a>
+                    </li>
+                    <li>
+                        <a href="" title="Messages"><i class="icon-messages"></i>Messages</a>
+                    </li>
+                    <li>
+                        <a href="" title="Profile"><i class="icon-profile"></i>Profile</a>
+                    </li>
+                    <li>
+                        <a href="" title="Settings"><i class="icon-settings"></i>Settings</a>
+                    </li>
+                </ul> 
+            </div>
+            <div class="rates">
+                <div class="highlight">
+                    <h3><strong>8.7</strong> out of 10</h3>
+                    <div class="bar">
+                        <div class="bar-progress bar-progress-80"></div>
+                    </div>
+                </div>
+                <div class="info" [ngClass]="{ 'active': toggleInfo }">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <div class="mask"></div>
+                    <div class="more" (click)="showHideInfo()"><i class="icon-tic"></i></div>
+                </div>
+            </div>
+        </div>
+        <!-- -->
+
+    </div>
+</section>
